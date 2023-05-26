@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .btn-cta {
+        @apply p-3 bg-color-3  text-slate-50 rounded font-bold hover:shadow-md  hover:shadow-neutro hover:scale-100 duration-150 ease-in;
+    }
+    .titulo {
+        @apply font-alfa text-color-2 text-xl md:text-2xl lg:text-3xl tracking-wider uppercase;
+    }
+
+    .btn-actividad {
+        @apply rounded bg-color-1 p-2 font-bold uppercase hover:bg-color-3 cursor-pointer active:text-white hover:text-white;
+    }
+    .btn-actividad__selected {
+        @apply text-white bg-color-3;
+    }
+
+    .celda-info {
+        @apply border grid grid-cols-3 gap-2 px-4 py-2 before:content-[attr(data-cell)':_'] before:font-bold before:capitalize md:before:content-none md:grid-cols-none md:table-cell;
+    }
+
+    .galery-img {
+        @apply hover:opacity-50 cursor-pointer;
+    }
+}
+
+/* Color Theme Swatches in Hex  ----------------------------------------------------- */
+/* 
+.MATEUS-LIMA-1-hex {
+    color: #022026;
+}
+.MATEUS-LIMA-2-hex {
+    color: #036873;
+}
+.MATEUS-LIMA-3-hex {
+    color: #7ed0d9;
+}
+.MATEUS-LIMA-4-hex {
+    color: #d92b04;
+}
+.MATEUS-LIMA-5-hex {
+    color: #bf7665;
+}
+
+/* Color Theme Swatches in RGBA */
+/* .MATEUS-LIMA-1-rgba {
+    color: rgba(2, 31, 38, 1);
+}
+.MATEUS-LIMA-2-rgba {
+    color: rgba(3, 103, 114, 1);
+}
+.MATEUS-LIMA-3-rgba {
+    color: rgba(125, 207, 216, 1);
+}
+.MATEUS-LIMA-4-rgba {
+    color: rgba(216, 43, 4, 1);
+}
+.MATEUS-LIMA-5-rgba {
+    color: rgba(191, 117, 101, 1);
+} */
+
+/* Color Theme Swatches in HSLA */
+/* .MATEUS-LIMA-1-hsla {
+    color: hsla(191, 88, 7, 1);
+}
+.MATEUS-LIMA-2-hsla {
+    color: hsla(185, 94, 23, 1);
+}
+.MATEUS-LIMA-3-hsla {
+    color: hsla(185, 54, 67, 1);
+}
+.MATEUS-LIMA-4-hsla {
+    color: hsla(11, 96, 43, 1);
+}
+.MATEUS-LIMA-5-hsla {
+    color: hsla(11, 41, 57, 1);
+}  */
