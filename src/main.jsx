@@ -14,7 +14,7 @@ import OutletIndex from './components/OutletIndex'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/mockup-atlas-gym/",
     element: <Home />,
   },
   {
