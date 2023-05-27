@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         element: <OutletIndex />
       },
       {
-        path: "/actividad/:actividadId",
+        path: "/mockup-atlas-gym/actividades/actividad/:actividadId",
         element: <Actividad />,
         loader: actividadesLoader,
       },
