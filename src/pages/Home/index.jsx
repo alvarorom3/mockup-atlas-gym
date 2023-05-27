@@ -17,9 +17,9 @@ export default function Home() {
                 <section className="bg-neutro text-color-2 font-poppins">
                     <div className="max-w-screen-2xl mx-auto relative">
                         <picture>
-                            <source media="(max-width: 767px)" srcSet="./src/assets/images/hero-800.jpg" />
-                            <source media="(min-width: 768px)" srcSet="./src/assets/images/hero.jpg" />
-                            <img src="./src/assets/images/hero.jpg" className="relative object-cover object-botom mx-auto" />
+                            <source media="(max-width: 767px)" srcSet="./mockup-atlas-gym/src/assets/images/hero-800.jpg" />
+                            <source media="(min-width: 768px)" srcSet="./mockup-atlas-gym/src/assets/images/hero.jpg" />
+                            <img src="./mockup-atlas-gym/src/assets/images/hero.jpg" className="relative object-cover object-botom mx-auto" />
                         </picture>
                         <div className="w-full h-full absolute opacity-90 bg-gradient-to-t from-neutro via-neutro  top-0 left-0">
 
@@ -27,7 +27,7 @@ export default function Home() {
                         <div className="w-1/2 absolute top-1/2 left-[15%] text-sm sm:text-xl ">
                             <h1 className='titulo font-bold mb-4'>Gimnasio Atlas</h1>
                             <p>Su viaje comienza aquí: experimente salud, fuerza y diversidad en Atlas</p>
-                            <Link to="/Planes">
+                            <Link to="/mockup-atlas-gym/planes">
                                 <button className="btn-cta hover:scale-none  hover:bg-color-1 w-full mt-8">
                                     Asociate
                                 </button>

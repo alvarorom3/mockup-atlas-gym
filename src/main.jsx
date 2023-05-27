@@ -18,13 +18,13 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/Grilla",
+    path: "/mockup-atlas-gym/grilla",
     element: <Grilla />,
   }, {
-    path: "/Contacto",
+    path: "/mockup-atlas-gym/contacto",
     element: <Contacto />,
   }, {
-    path: "/Actividades",
+    path: "/mockup-atlas-gym/actividades",
     element: <Actividades />,
     children: [
       {
@@ -32,17 +32,17 @@ const router = createBrowserRouter([
         element: <OutletIndex />
       },
       {
-        path: "actividad/:actividadId",
+        path: "/actividad/:actividadId",
         element: <Actividad />,
         loader: actividadesLoader,
       },
     ],
 
   }, {
-    path: "/AboutUs",
+    path: "/mockup-atlas-gym/aboutUs",
     element: <AboutUs />,
   }, {
-    path: "/Planes",
+    path: "/mockup-atlas-gym/planes",
     element: <Planes />,
   },
 ])

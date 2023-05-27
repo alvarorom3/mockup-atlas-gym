@@ -41,9 +41,9 @@ export default function Header() {
         <header className={`bg-color-2 ${sticky.header}`}  >
             <div className={`max-w-screen-2xl mx-auto ${sticky.content} flex items-center justify-between `}>
                 <div className="logo px-4 py-4 md:py-0">
-                    <a href="/">
+                    <Link to="/">
                         <img src={icon} className="w-40" />
-                    </a>
+                    </Link>
                 </div>
 
 
@@ -66,14 +66,14 @@ export default function Header() {
                     >
                         <ul className="text-center lg:text-xl">
                             <li className="">
-                                <Link to="/Actividades" className=" ">
+                                <Link to="/mockup-atlas-gym/actividades" className=" ">
                                     <div className=" p-2 hover:bg-color-1 hover:text-color-2">
                                         Actividades
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/Grilla" className=" ">
+                                <Link to="/mockup-atlas-gym/grilla" className=" ">
                                     <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                         Horarios
                                     </div>
@@ -81,21 +81,21 @@ export default function Header() {
                             </li>
 
                             <li>
-                                <Link to="/Contacto" className=" ">
+                                <Link to="/mockup-atlas-gym/contacto" className=" ">
                                     <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                         Contacto
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/AboutUs" className=" ">
+                                <Link to="/mockup-atlas-gym/aboutUs" className=" ">
                                     <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                         Sobre nosotros
                                     </div>
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/Planes" className=" ">
+                                <Link to="/mockup-atlas-gym/planes" className=" ">
                                     <div className="my-4 px-2">
                                         <button className="btn-cta w-full">Sumate</button>
                                     </div>
@@ -110,35 +110,35 @@ export default function Header() {
 
                     <ul className="hidden md:flex items-center font-bold text-sm lg:text-lg">
                         <li className="">
-                            <Link to="/Actividades" className=" ">
+                            <Link to="/mockup-atlas-gym/actividades" className=" ">
                                 <div className="leading-10 py-8 px-2 hover:bg-color-1 hover:text-color-2 ">
                                     Actividades
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Grilla" className=" ">
+                            <Link to="/mockup-atlas-gym/grilla" className=" ">
                                 <div className="leading-10 py-8 px-2 hover:bg-color-1 hover:text-color-2 ">
                                     Horarios
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Contacto" className=" ">
+                            <Link to="/mockup-atlas-gym/contacto" className=" ">
                                 <div className="leading-10 py-8 px-2 hover:bg-color-1 hover:text-color-2 ">
                                     Contacto
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/AboutUs" className=" ">
+                            <Link to="/mockup-atlas-gym/aboutUs" className=" ">
                                 <div className="leading-10 py-8 px-2 hover:bg-color-1 hover:text-color-2 ">
                                     Sobre nosotros
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Planes" className=" ">
+                            <Link to="/mockup-atlas-gym/planes" className=" ">
                                 <div className="px-2">
                                     <button className="btn-cta">Sumate</button>
                                 </div>

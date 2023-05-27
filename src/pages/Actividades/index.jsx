@@ -33,9 +33,6 @@ export default function Actividades() {
                                         {actividad.titulo}
                                     </div>
                                 )}
-                                {/* <div className=" p-4  hover:bg-color-2 hover:text-neutro capitalize ">
-                                    {actividad.titulo}
-                                </div> */}
                             </NavLink>
 
 

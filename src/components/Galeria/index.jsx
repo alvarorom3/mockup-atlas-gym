@@ -7,74 +7,74 @@ import '../../../node_modules/photoswipe/dist/photoswipe.css'
 // images/galery
 const photos = [
     {
-        original: "src/assets/images/galery/crossfit-orig.jpg",
-        thumbnail: "src/assets/images/galery/crossfit-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/crossfit-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/crossfit-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/crossfit2-orig.jpg",
-        thumbnail: "src/assets/images/galery/crossfit2-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/crossfit2-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/crossfit2-thumb.jpg",
         height: "1920",
         width: "1280"
     },
     {
-        original: "src/assets/images/galery/fitness-orig.jpg",
-        thumbnail: "src/assets/images/galery/fitness-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/fitness-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/fitness-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/gym_girl1-orig.jpg",
-        thumbnail: "src/assets/images/galery/gym_girl1-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/gym_girl1-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/gym_girl1-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/lifting-orig.jpg",
-        thumbnail: "src/assets/images/galery/lifting-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/lifting-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/lifting-thumb.jpg",
         height: "1920",
         width: "1280"
     },
     {
-        original: "src/assets/images/galery/maquina-orig.jpg",
-        thumbnail: "src/assets/images/galery/maquina-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/maquina-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/maquina-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/equipment-orig.jpg",
-        thumbnail: "src/assets/images/galery/equipment-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/equipment-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/equipment-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/squat-orig.jpg",
-        thumbnail: "src/assets/images/galery/squat-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/squat-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/squat-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/room_maquinas-orig.jpg",
-        thumbnail: "src/assets/images/galery/room_maquinas-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/room_maquinas-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/room_maquinas-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/trainner-orig.jpg",
-        thumbnail: "src/assets/images/galery/trainner-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/trainner-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/trainner-thumb.jpg",
         height: "1280",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/gym_girl2-orig.jpg",
-        thumbnail: "src/assets/images/galery/gym_girl2-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/gym_girl2-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/gym_girl2-thumb.jpg",
         height: "1080",
         width: "1920"
     },
     {
-        original: "src/assets/images/galery/room_maquinas2-orig.jpg",
-        thumbnail: "src/assets/images/galery/room_maquinas2-thumb.jpg",
+        original: "mockup-atlas-gym/src/assets/images/galery/room_maquinas2-orig.jpg",
+        thumbnail: "mockup-atlas-gym/src/assets/images/galery/room_maquinas2-thumb.jpg",
         height: "1280",
         width: "1920"
     },
