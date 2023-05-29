@@ -20,7 +20,7 @@ export default function Header() {
     const stickNavbar = () => {
         if (window !== undefined) {
             let windowHeight = window.scrollY;
-            if (windowHeight > 150 && document.documentElement.scrollHeight > 1500) {
+            if (windowHeight > 800 && document.documentElement.scrollHeight > 1500) {
                 setSticky({
                     header: "bg-transparent w-full fixed top-0 left-0 z-50 animate-navDown",
                     content: "bg-color-2 rounded-b-lg"
@@ -41,7 +41,7 @@ export default function Header() {
         <header className={`bg-color-2 ${sticky.header}`}  >
             <div className={`max-w-screen-2xl mx-auto ${sticky.content} flex items-center justify-between `}>
                 <div className="logo px-4 py-4 md:py-0">
-                    <Link to="/">
+                    <Link to="/mockup-atlas-gym">
                         <img src={icon} className="w-40" />
                     </Link>
                 </div>

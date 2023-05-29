@@ -5,7 +5,8 @@ import Horarios from "../../components/Horarios";
 import Galeria from "../../components/Galeria";
 import Footer from "../../components/Footer";
 import NewsLetter from "../../components/NewsLetter";
-
+import hero from "../../assets/images/hero.jpg"
+import hero800 from "../../assets/images/hero-800.jpg"
 
 export default function Home() {
 
@@ -17,9 +18,9 @@ export default function Home() {
                 <section className="bg-neutro text-color-2 font-poppins">
                     <div className="max-w-screen-2xl mx-auto relative">
                         <picture>
-                            <source media="(max-width: 767px)" srcSet="./mockup-atlas-gym/src/assets/images/hero-800.jpg" />
-                            <source media="(min-width: 768px)" srcSet="./mockup-atlas-gym/src/assets/images/hero.jpg" />
-                            <img src="./mockup-atlas-gym/src/assets/images/hero.jpg" className="relative object-cover object-botom mx-auto" />
+                            <source media="(max-width: 767px)" srcSet="https://ik.imagekit.io/rld8rfell/atlas-actividades/hero-800.jpg?updatedAt=1685403034567" />
+                            <source media="(min-width: 768px)" srcSet="https://ik.imagekit.io/rld8rfell/atlas-actividades/hero.jpg?updatedAt=1685403034929" />
+                            <img src="https://ik.imagekit.io/rld8rfell/atlas-actividades/hero.jpg?updatedAt=1685403034929" className="relative object-cover object-botom mx-auto" />
                         </picture>
                         <div className="w-full h-full absolute opacity-90 bg-gradient-to-t from-neutro via-neutro  top-0 left-0">
 

@@ -23,7 +23,7 @@ export default function Actividad() {
             <p className="mb-8">
                 {actividad.descripcion}
             </p>
-            <p className="text-center font-bold"> Consulta la <Link to="/Grilla" className="text-color-2 underline hover:text-color-3">Grilla de Horarios aquí</Link></p>
+            <p className="text-center font-bold"> Consulta la <Link to="/mockup-atlas-gym/grilla" className="text-color-2 underline hover:text-color-3">Grilla de Horarios aquí</Link></p>
 
         </div>
     )

@@ -14,13 +14,14 @@ import OutletIndex from './components/OutletIndex'
 
 const router = createBrowserRouter([
   {
-    path: "/mockup-atlas-gym/",
+    path: "/mockup-atlas-gym",
     element: <Home />,
   },
   {
     path: "/mockup-atlas-gym/grilla",
     element: <Grilla />,
-  }, {
+  },
+  {
     path: "/mockup-atlas-gym/contacto",
     element: <Contacto />,
   }, {
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
         element: <OutletIndex />
       },
       {
-        path: "/actividades/actividad/:actividadId",
+        path: "/mockup-atlas-gym/actividades/actividad/:actividadId",
         element: <Actividad />,
         loader: actividadesLoader,
       },
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
     path: "/mockup-atlas-gym/planes",
     element: <Planes />,
   },
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

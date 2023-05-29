@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="bg-color-2 py-16 px-4 font-poppins  tracking-wider">
             <div className="max-w-screen-2xl mx-auto flex flex-col sm:flex-row items-start justify-between">
                 <div className="flex flex-col my-8 sm:m-0 ">
-                    <Link to="/Planes" className="sm:mb-8">
+                    <Link to="/mockup-atlas-gym/planes" className="sm:mb-8">
                         <button className="btn-cta">Sumate</button>
                     </Link>
                     <div className="">
@@ -22,28 +22,28 @@ export default function Footer() {
                 <div className="links flex flex-col order-first sm:order-none text-color-1 font-bold lg:text-xl">
                     <ul className="">
                         <li className="">
-                            <Link to="/Actividades" className=" ">
+                            <Link to="/mockup-atlas-gym/actividades" className=" ">
                                 <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                     Actividades
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Grilla" className=" ">
+                            <Link to="/mockup-atlas-gym/grilla" className=" ">
                                 <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                     Horarios
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/Contacto" className=" ">
+                            <Link to="/mockup-atlas-gym/contacto" className=" ">
                                 <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                     Contacto
                                 </div>
                             </Link>
                         </li>
                         <li>
-                            <Link to="/AboutUs" className=" ">
+                            <Link to="/mockup-atlas-gym/aboutUs" className=" ">
                                 <div className=" p-2 hover:bg-color-1 hover:text-color-2 ">
                                     Sobre nosotros
                                 </div>
@@ -51,9 +51,11 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-                <div className="logo self-center sm:self-start "><a href="/">
-                    <img src={icon} className=" w-40" />
-                </a></div>
+                <div className="logo self-center sm:self-start ">
+                    <Link to="/mockup-atlas-gym">
+                        <img src={icon} className=" w-40" />
+                    </Link>
+                </div>
             </div>
         </footer>
     )

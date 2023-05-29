@@ -25,7 +25,7 @@ export default function Actividades() {
 
                             <NavLink
                                 key={nanoid()}
-                                to={`actividad/${actividad.id}`}
+                                to={`/mockup-atlas-gym/actividades/actividad/${actividad.id}`}
                                 className="m-4 bg-color-1 md:m-0"
                             >
                                 {({ isActive, isPending }) => (
