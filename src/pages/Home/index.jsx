@@ -5,8 +5,7 @@ import Horarios from "../../components/Horarios";
 import Galeria from "../../components/Galeria";
 import Footer from "../../components/Footer";
 import NewsLetter from "../../components/NewsLetter";
-import hero from "../../assets/images/hero.jpg"
-import hero800 from "../../assets/images/hero-800.jpg"
+
 
 export default function Home() {
 
