@@ -2,7 +2,7 @@
 
 ## Frontend desarrollado en React para la web de un gimnasio con funciones basicas.
 
-Podes ver el demo aquí: [Gimnasio Atlas - (alvarorom3.github.io)](https://alvarorom3.github.io/mockup-atlas-gym/contacto)
+Podes ver el demo aquí: [Gimnasio Atlas - (alvarorom3.github.io)](https://alvarorom3.github.io/mockup-atlas-gym/)
 
 Primera implementación de funciones: 
 * Grilla de horarios
